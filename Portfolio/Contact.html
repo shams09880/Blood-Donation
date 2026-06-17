@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a> | 
+                 <a href="Education.html">Education</a> |          
+                 <a href="Experiece.html">Experience</a> |
+                 <a href="Projects.html">Projects</a> |
+                 <a href="Contact.html">Contact</a> 
+            </nav>
+        </header>
+        <hr>
+        <h1>Contact Me</h1>
+        <form method="post">
+            <fieldset>
+                <legend>please fillup this form</legend>
+                <table>
+                    <tr>
+                        <td><label for="first name">First Name:</label></td>
+                        <td><input type="text" id="first name" name="first name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="last name">Last Name:</label></td>
+                        <td><input type="text" id="last name" name="last name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email   :</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Services:</label></td>
+                        <td>
+                            <input type="checkbox" value="web development">Web Development
+                            <input type="checkbox" value="ai/ml">AI/ML
+                            <input type="checkbox" value="backend">Backend
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                      <lavel for="reason of contact">Reason of Contact:</lavel>
+                    </td>
+                    <td>
+                        <select id="reason of contact" name="reason of contact">
+                            <option> Job </option>
+                            <option> Projects </option>
+                            <option> Thesis </option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                         <td>Book Slot:</td>
+                        <td><input type="datetime-local"></td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td>
+                            <br>
+                            <input type="Submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
